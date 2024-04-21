@@ -1,0 +1,98 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+background-color: white;
+}
+
+nav {
+    background-color: #fff;
+    top: 0;
+    padding: 0 85px;
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    box-shadow: 0 5px 80px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    background-color: #ffffff;
+}
+
+nav:hover {
+    box-shadow: 0px 40px 80px rgba(0, 0, 0, 0.15);
+    transition: .4s;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav .logo a {
+    color: black;
+}
+
+nav .nav-btn {
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #159b9b;
+    color: white;
+    font-weight: bold;
+}
+
+nav .nav-btn:hover {
+    background-color: #118585;
+    transition: .4s;
+}
+
+/*  main  */
+
+
+.main {
+    text-align: center;
+    justify-content: center;
+    margin-top: 18%;
+}
+
+.main .main-content .main-text {
+    padding: 10px;
+}
+
+.main-btn a {
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #e3ffff;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: background-color 0.5s;
+    border: 2px solid black;
+}
+
+.main-btn a:hover {
+    background-color: #118585;
+    color: white;
+    box-shadow: 5px 5px 0 black;
+    transition: .5s;
+}
